@@ -1,0 +1,16 @@
+{
+IntegerA, IntegerB, IntegerNoParam : % ;
+RealA : ! ;
+BooleanA : $ ;
+let IntegerA = 10d :
+IntegerB = 31h. :
+RealA = 42.123E+24 :
+(* ABC *)
+
+for ( IntegerNoParam ; IntegerNoParam LT IntegerB; IntegerNoParam plus 58d) output (IntegerNoParam) :
+if IntegerNoParam NE IntegerB 
+then output(IntegerNoParam)
+else input (IntegerNoParam) end_else :
+
+do while IntegerB LE 700d output (IntegerB mult 1d) loop  :
+}

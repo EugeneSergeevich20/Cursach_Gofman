@@ -1,0 +1,15 @@
+dim IntegerA, IntegerB int
+dim RealA float 
+dim BoolA bool 
+IntegerA as 10d :
+IntegerB as 31h :
+RealA as 42.123E+24 :
+
+for IntegerA as 15d to IntegerA plus 123d do write (IntegerNoParam) :
+
+if IntegerNoParam NE IntegerB  
+then write(IntegerNoParam)
+else read (IntegerNoParam) :
+
+while IntegerB LE 700d do write (IntegerB mult 1d)  :
+end
